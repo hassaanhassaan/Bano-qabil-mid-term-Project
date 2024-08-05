@@ -1,0 +1,403 @@
+body {
+    background-color: black;
+}
+.bgimage {
+    box-sizing: border-box;
+    position: absolute;
+    width:100%;
+    height:auto;
+    margin: 100 auto;
+    padding: 10px;
+  right: 0;
+}
+
+.heading {
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color:white ;
+    position: absolute;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+}
+
+.stylepic {
+    position: absolute;
+   
+    width: 15%;
+top: 155px;
+right: 42%;
+bottom: 100px;
+}
+
+.stylemain {
+    position: absolute;
+    right: 39%;
+    top: 59%;
+    width: 20%;
+}
+
+.customer {
+    position: absolute;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(219, 30, 30);
+    top: 66%;
+    right: 34%;
+}
+
+.review {
+position: absolute;
+text-align: center;
+font-size: 23px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+top: 75%;
+left: 20%;
+}
+.form{
+   position:absolute;
+   align-items: center;
+   color: white;
+   font-size: 20px ;
+   right: 60%;
+   top: 100%;
+   display: inline-block;  
+   left: 40%;
+   
+}
+
+.mail{
+    position:absolute;
+    align-items: center;
+    color: white;
+    font-size: 20px ;
+    right: 60%;
+    top: 110%;
+    display: inline-block;  
+    left: 40%;
+     
+}
+
+.phone {
+    position:absolute;
+    align-items: center;
+    color: white;
+    font-size: 20px ;
+    right: 60%;
+    top: 120%;
+    display: inline-block;  
+    left: 40%;
+}
+
+.select{
+    position:absolute;
+    align-items: center;
+    color: white;
+    font-size: 20px ;
+    right: 60%;
+    top: 130%;
+    display: inline-block;  
+    left: 40%;
+}
+
+.branch{
+    position:absolute;
+    align-items: center;
+    color: white;
+    font-size: 20px ;
+    right: 60%;
+    top: 140%;
+    display: inline-block;  
+    left: 40%;
+}
+
+.food{
+    position:absolute; 
+     align-items: center;
+     color: white;
+ font-size: 20px ; 
+    /* right: 60%; */
+    top: 155%; 
+    left: 40%;  
+}
+
+.service{
+    position:absolute; 
+     align-items: center;
+     color: white;
+ font-size: 20px ; 
+    /* right: 60%; */
+    top: 168%; 
+    left: 40%;  
+}
+.cleanliness{
+    position:absolute; 
+     align-items: center;
+     color: white;
+ font-size: 20px ; 
+    /* right: 60%; */
+    top: 183%; 
+    left: 40%;  
+}.Accuracy{
+    position:absolute; 
+     align-items: center;
+     color: white;
+ font-size: 20px ; 
+    /* right: 60%; */
+    top: 198%; 
+    left: 40%;  
+}
+.speed{
+    position:absolute; 
+     align-items: center;
+     color: white;
+ font-size: 20px ; 
+    /* right: 60%; */
+    top: 212%; 
+    left: 40%;  
+}
+
+.feed{
+    position:absolute; 
+     align-items: center;
+     color: white;
+ font-size: 20px ; 
+    /* right: 60%; */
+    top: 225%; 
+    left: 40%;  
+}
+
+.submit{
+    position:absolute; 
+    width: 100px;
+    height: 100px;
+     align-items: center;
+     color: rgb(148, 17, 17);
+     
+ 
+}
+#navbar {
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    height: 116px;
+    width: 99%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: auto;
+    
+}
+.lk{
+    padding-left: 5%;
+}
+.logo{
+    width: 250px;
+    height: 80px;
+    margin-top: 15px;
+    display: inline;
+}
+.home{
+    margin-left: 450px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+.home:hover{
+    color: rgb(238, 40, 40);;
+}
+.about{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+   
+    
+}
+.about:hover{
+    color: rgb(238, 40, 40);;
+}
+.menu{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    
+}
+.menu:hover{
+    color: rgb(238, 40, 40);;
+}
+.feedback{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+}
+.feedback:hover{
+    color: rgb(238, 40, 40);;
+}
+.contact{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    
+}
+.contact:hover{
+    color: rgb(238, 40, 40);;
+}
+.button1{
+    margin-left: 60px;
+    color: #ffffff;
+    background-color: rgb(238, 40, 40);
+    border: solid rgb(238, 40, 40);
+    border-radius: 5px;
+    font-size: 17px;
+    height: 40px;
+    width: 150px;
+   cursor: pointer;
+   margin-top: 0px;
+}
+
+#footer-container {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    padding-top: 60px;
+}
+
+.box1 {
+    word-spacing: 10px;
+    line-height: 25px;
+    margin-right: 50px;
+    margin-left: 80px;
+    display: inline-block;
+    width: 250px;
+    height: 300px
+}
+
+
+.box2 {
+
+
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 250px;
+    height: 300px
+}
+
+.box3 {
+
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 250px;
+    height: 300px
+}
+
+.box4 {
+
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 170px;
+    height: 300px
+}
+
+
+
+.social-icons> ion-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons>ion-icon:hover {
+    color: red;
+}
+
+.social-icons>ion-icon:active {
+    color: aqua;
+}
+
+.social-icons-border {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+.pointer {
+    line-height: 30px;
+    
+}
+
+.pointer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.pointer a:hover {
+    color: rgb(225, 71, 71);
+    text-decoration: none;
+}
+
+.pointer a:active {
+    color: #4d4d4d;
+}
+
+#email {
+
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#email::placeholder {
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+#button {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#button:hover {
+    background-color: #ab3737;
+}
+.mnmn{
+    color: #ffffff;
+}

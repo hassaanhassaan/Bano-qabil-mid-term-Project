@@ -93,7 +93,7 @@ body {
 #bg-picture {
     margin-top: 100px;
     height: 500px;
-    background-image: url(../pictures/pic3.jpg);
+    background-image: url(../Pictures/home-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -213,7 +213,7 @@ div.child-box2>p {
 #sub-box3 {
     margin-top: 100px;
     height: 500px;
-    background-image: url(../pictures/pic3.jpg);
+    background-image: url(../Pictures/home-bg1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 

@@ -93,7 +93,7 @@ body {
 #bg-picture {
     margin-top: 100px;
     height: 500px;
-    background-image: url(../Pictures/home-bg.jpg);
+    background-image: url(home-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -213,7 +213,7 @@ div.child-box2>p {
 #sub-box3 {
     margin-top: 100px;
     height: 500px;
-    background-image: url(../Pictures/home-bg1.jpeg);
+    background-image: url(home-bg1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -261,7 +261,7 @@ div#sub-box3>h1 {
 
 #child-box3>h1 {
     margin: 10px 0px 10px 0px;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
 }
 #child-box3>p {
@@ -498,6 +498,3 @@ div#sub-box3>h1 {
     background-color: #ab3737;
 }
 
-.mnmn {
-    color: #ffffff;
-} */

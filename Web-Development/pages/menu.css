@@ -58,7 +58,6 @@ body {
     text-decoration: none;
 }
 
-
 .header-links a:active {
     color: #4d4d4d;
 }
@@ -82,120 +81,122 @@ body {
     text-decoration: none;
 }
 
-
-/* --------------main body ----------- */
-
-
+/* ***********mian body********** */
 #bg-picture {
     margin-top: 100px;
-    height: 420px;
-    background-image: url(../pictures/pic3.jpg);
+    width: 100%;
+    height: 380px;
+    background-image: url(pic2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+
+#headings-position {
+    position: relative;
+    top: 90px;
 
 }
 
 #heading-picture {
     text-align: center;
     font-size: larger;
+    
+   
 }
 
 #heading-picture img {
-    width: 340px;
-    height: 80px;
+    width: 220px;
+    height: 50px;
+    margin-bottom: 20px;
     position: relative;
     top: 25px;
 }
 
-#heading-about {
+#heading-menu {
     font-size: 40px;
     text-align: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
 }
+
+#sub-heading {
+    text-align: center;
+}
+
 
 #para1 {
-    text-align: center;
-    font-size: 14px;
-}
-
-
-#box1 {
-    margin-top: 40px;
-    width: 100%;
-    height: 600px;
-
-}
-
-#heading2 {
-    text-align: center;
-    color: red;
-}
-
-#para2 {
     text-align: center;
     font-size: 12px;
 }
 
+
+#box1 {
+    padding-top: 50px;
+
+}
+
+#box1-1 {
+  text-align: center;
+   
+    
+    
+}
+
+#dine-btn {
+    margin: 0px 15px 0px 15px;
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 7px;
+    
+}
+#take-btn {
+    margin: 0px 15px 0px 15px;
+    width: 290px;
+    height: 50px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 7px;
+    
+}
+#break-btn {
+    margin: 0px 15px 0px 15px;
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.btns {
+    display: inline-block;
+    
+}
+
+.heading2>h1 {
+    padding-bottom: 0;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(102, 88, 226, 0.838)
+}
+
 #box2 {
-    display: inline-block;
-
+    margin: 10px 40px 10px 40px;
 }
 
-#box2 img {
-    width: 320px;
-    height: 320px;
-    margin: 30px 30px 0px 150px;
-    border-radius: 50%;
-
+.image-size {
+    margin-left: 20px;
+    width: 260px;
+    height: 390px;
 }
 
-#box3 {
-    width: 500px;
-    height: 300px;
-    display: inline-block;
-    position: absolute;
-    top: 800px;
 
-}
-
-#heading3 {
-    color: red;
-    margin-bottom: 0px;
-
-}
-
-#founder {
-    margin-top: 10px;
-}
-
-#para3 {
-    font-size: 15px;
-    line-height: 24px;
-
-}
-
-#box4 {
-    margin-top: 50px;
-
-}
-
-#para4 {
-    padding: 0px 160px 0px 160px;
-    font-size: 15px;
-    line-height: 30px;
+#last-iamge {
     text-align: center;
-}
-
-
-#box5>img {
-
-    width: 60%;
-    height: 350px;
-}
-
-#box5 {
-    text-align: center;
-    margin-top: 50px;
-
+    margin-bottom: 10px;
 }
 
 
@@ -247,8 +248,6 @@ body {
     height: 300px
 }
 
-
-
 .social-icons> ion-icon {
     width: 30px;
     height: 30px;
@@ -271,6 +270,7 @@ body {
     border: 2px solid white;
     border-radius: 50%;
 }
+
 
 
 

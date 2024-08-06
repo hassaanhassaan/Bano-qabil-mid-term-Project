@@ -1,5 +1,8 @@
+
+
+
 * {
-    font-family:  Verdana, sans-serif;
+    font-family: Verdana, sans-serif;
     color: white;
 }
 
@@ -15,7 +18,7 @@ body {
     background-color: black;
     height: 100px;
     width: 100%;
-    
+
 }
 
 #ridan-logo {
@@ -58,6 +61,7 @@ body {
     text-decoration: none;
 }
 
+
 .header-links a:active {
     color: #4d4d4d;
 }
@@ -81,129 +85,125 @@ body {
     text-decoration: none;
 }
 
-/* ***********mian body********** */
-#bg-picture {
-    margin-top: 100px;
+
+.backimg {
+    box-sizing: border-box;
+    position: absolute;
+    width:100%;
+    height:510px;
+    margin: 100 auto;
+    padding: 10px;
+  right: 0;
+}
+
+.contacthead{
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+     color:white ;
+    position: absolute;
+    top: 22%;
     width: 100%;
-    height: 380px;
-    background-image: url(../pictures/pic2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-#headings-position {
-    position: relative;
-    top: 90px;
-
-}
-
-#heading-picture {
-    text-align: center;
-    font-size: larger;
-    
-   
-}
-
-#heading-picture img {
-    width: 220px;
-    height: 50px;
-    margin-bottom: 20px;
-    position: relative;
-    top: 25px;
-}
-
-#heading-menu {
-    font-size: 40px;
-    text-align: center;
-    margin-top: 18px;
-    margin-bottom: 20px;
-}
-
-#sub-heading {
     text-align: center;
 }
 
+.chotipic {
+    position: absolute;
 
-#para1 {
+    width: 15%;
+top: 143px;
+right: 42%;
+bottom: 100px;
+}
+
+.texter {
+    position: absolute;
     text-align: center;
-    font-size: 12px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    top: 35%;
+    left: 31%;
+    }
+
+    .freeus{
+     position:absolute;
+        /* align-items: center; */
+        color: rgb(182, 9, 9);
+         font-size: 44px ; 
+         /* right: 60%; */
+        top: 67%;  
+        left: 35%;
+    }
+
+    .alagpic {
+        position: absolute;
+
+        width: 19.5%;
+    top: 81%;
+    right: 40.3%;
+    bottom: 100px;
+    }
+
+    .reviewco {
+        position: absolute;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        top: 88%;
+        left: 33%;
+        }
+
+        .locat{
+            position:absolute;
+               /* align-items: center; */
+               color: rgb(182, 9, 9);
+                font-size: 44px ; 
+                /* right: 60%; */
+               top: 105%;  
+               left: 40.5%;
+           }
+
+           .loc1{
+            position:absolute;
+               /* align-items: center; */
+               color: rgb(182, 9, 9);
+                font-size: 44px ; 
+                /* right: 60%; */
+               top: 119%;  
+               left: 7%;
+           }
+
+           .loc2{
+            position:absolute;
+               /* align-items: center; */
+               color: rgb(182, 9, 9);
+                font-size: 44px ; 
+                /* right: 60%; */
+               top: 119%;  
+               left: 37%;
+           }
+
+           .loc3{
+            position:absolute;
+               /* align-items: center; */
+               color: rgb(182, 9, 9);
+                font-size: 44px ; 
+                /* right: 60%; */
+               top: 119%;  
+               left: 67%;
+           }
+
+/* ---------------footer------------- */
+
+footer {
+    position: absolute;
+    top: 1000px;
+
 }
-
-
-#box1 {
-    padding-top: 50px;
-
-}
-
-#box1-1 {
-  text-align: center;
-   
-    
-    
-}
-
-#dine-btn {
-    margin: 0px 15px 0px 15px;
-    width: 170px;
-    height: 50px;
-    background-color: red;
-    font-size: 14px;
-    border-radius: 7px;
-    
-}
-#take-btn {
-    margin: 0px 15px 0px 15px;
-    width: 290px;
-    height: 50px;
-    background-color: red;
-    font-size: 14px;
-    border-radius: 7px;
-    
-}
-#break-btn {
-    margin: 0px 15px 0px 15px;
-    width: 170px;
-    height: 50px;
-    background-color: red;
-    font-size: 14px;
-    border-radius: 7px;
-}
-
-.btns {
-    display: inline-block;
-    
-}
-
-.heading2>h1 {
-    padding-bottom: 0;
-    margin-bottom: 0%;
-    text-align: center;
-    font-size: 30px;
-    color: rgba(102, 88, 226, 0.838)
-}
-
-#box2 {
-    margin: 10px 40px 10px 40px;
-}
-
-.image-size {
-    margin-left: 20px;
-    width: 260px;
-    height: 390px;
-}
-
-
-#last-iamge {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-
-/* /**************footer************* */
 
 #footer-container {
-    background-color: rgb(48, 46, 46);
+    background-color: black;
     width: 100%;
     height: 400px;
     padding-top: 60px;
@@ -248,7 +248,9 @@ body {
     height: 300px
 }
 
-.social-icons> ion-icon {
+
+
+.social-icons>ion-icon {
     width: 30px;
     height: 30px;
 }
@@ -274,10 +276,9 @@ body {
 
 
 
-
 .pointer {
     line-height: 30px;
-    
+
 }
 
 .pointer a:link {
